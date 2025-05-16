@@ -1,0 +1,20 @@
+[project]
+name = "test_tareq_joumaa"
+authors = [
+    { name = "company to determine the Return on Investment (ROI) for clients switching to solar", email = "cells.tareqjoumaa4@gmail.com"}
+]
+description = "Develop a system to calculate average power consumption and tariffs for a solar cell"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
