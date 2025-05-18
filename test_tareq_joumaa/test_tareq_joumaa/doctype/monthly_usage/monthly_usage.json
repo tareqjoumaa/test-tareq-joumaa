@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-16 22:31:49.466253",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "avg_low_tariff",
+  "avg_high_tariff"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "avg_low_tariff",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Average low Tariff"
+  },
+  {
+   "fieldname": "avg_high_tariff",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Average High Tariff"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-16 22:35:40.530019",
+ "modified_by": "Administrator",
+ "module": "Test Tareq Joumaa",
+ "name": "Monthly Usage",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

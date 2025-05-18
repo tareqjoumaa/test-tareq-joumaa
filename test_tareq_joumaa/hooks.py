@@ -1,8 +1,8 @@
 app_name = "test_tareq_joumaa"
 app_title = "Test Tareq Joumaa"
-app_publisher = "company to determine the Return on Investment (ROI) for clients switching to solar"
-app_description = "Develop a system to calculate average power consumption and tariffs for a solar cell"
-app_email = "cells.tareqjoumaa4@gmail.com"
+app_publisher = "Tareq_joumaa"
+app_description = "Develop a system to calculate average power consumption and tariffs for a solar cell company to determine the Return on Investment (ROI) for clients switching to solar"
+app_email = "tareqjoumaa4@gmail.com"
 app_license = "mit"
 
 # Apps
